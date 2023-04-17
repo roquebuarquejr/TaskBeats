@@ -51,7 +51,6 @@ class TaskListViewModel(
         }
     }
 
-
     companion object {
         fun create(application: Application): TaskListViewModel {
             val dataBaseInstance = (application as TaskBeatsApplication).getAppDataBase()
@@ -59,5 +58,4 @@ class TaskListViewModel(
             return TaskListViewModel(dao)
         }
     }
-
 }

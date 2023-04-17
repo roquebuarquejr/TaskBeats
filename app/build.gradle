@@ -44,6 +44,9 @@ dependencies {
     implementation "androidx.room:room-runtime:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
 
+    def fragment_version = "1.5.6"
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+
     def lifecycle_version = "2.5.1"
     def arch_version = "2.1.0"
 
