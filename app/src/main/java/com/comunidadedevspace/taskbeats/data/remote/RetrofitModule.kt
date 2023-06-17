@@ -16,6 +16,7 @@ object RetrofitModule {
             HttpLoggingInterceptor.Level.BODY
         }
 
+
         val client: OkHttpClient = OkHttpClient.Builder()
             .addInterceptor(logging)
             .build()
