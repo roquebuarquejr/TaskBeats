@@ -6,6 +6,7 @@ data class NewsResponse(
     val data: List<NewsDto>
 )
 
+//DTO - Data transfer object
 data class NewsDto(
     @SerializedName("uuid")
     val id: String,

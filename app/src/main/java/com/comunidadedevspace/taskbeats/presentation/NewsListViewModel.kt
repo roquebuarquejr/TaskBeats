@@ -15,6 +15,9 @@ class NewsListViewModel(
 ) : ViewModel() {
 
 
+    // Service API
+    // ViewModel
+    // View/Activiy
     private val _newsListLiveData = MutableLiveData<List<NewsDto>>()
     val newsListLiveData: LiveData<List<NewsDto>> = _newsListLiveData
 

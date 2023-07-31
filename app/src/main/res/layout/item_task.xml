@@ -7,6 +7,7 @@
     android:layout_marginTop="8dp"
     android:orientation="vertical">
 
+
     <TextView
         android:id="@+id/tv_task_title"
         style="@style/Title3"
